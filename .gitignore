@@ -1,8 +1,8 @@
 # Ignore the output folder so you don't upload massive dump.cs files
-output/
+output/*
 
 # Ignore the workspace folder so you don't upload temp extraction files
-workspace/
+workspace/*
 
 # Ignore the APK folder if you put test APKs in it
 APK/
