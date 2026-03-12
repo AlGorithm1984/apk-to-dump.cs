@@ -1,0 +1,20 @@
+# Ignore the output folder so you don't upload massive dump.cs files
+output/
+
+# Ignore the workspace folder so you don't upload temp extraction files
+workspace/
+
+# Ignore the APK folder if you put test APKs in it
+APK/
+*.apk
+
+# Ignore the downloaded tools so the repo stays lightweight and portable
+core/tools/aapt.exe
+core/tools/Il2CppDumper.exe
+core/tools/Il2CppDumper-x86.exe
+core/tools/config.json
+core/tools/libwinpthread-1.dll
+core/tools/*.py
+core/tools/temp_aapt/
+core/tools/temp_dumper/
+core/tools/*.zip
